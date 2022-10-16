@@ -13,12 +13,10 @@ object PasswordChecker {
   }
 
   def isValidPassword(password: String): Boolean = {
-    if (password.length >= 8 &&
+    password.length >= 8 &&
       password.exists(_.isUpper) &&
       password.exists(_.isLower) &&
-      (password.exists(_.isDigit) || hasPunctuation(password))) {
-      true
-    } else false
+      (password.exists(_.isDigit) || hasPunctuation(password))
   }
 
 }
