@@ -1,4 +1,4 @@
-package palindrome
+package algorithms
 
 object Palindrome {
   def isPalindrome(word: String): Boolean = {

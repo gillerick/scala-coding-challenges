@@ -1,5 +1,5 @@
+import algorithms.Palindrome
 import munit.FunSuite
-import palindrome.Palindrome
 
 
 class PalindromeSuite extends FunSuite {

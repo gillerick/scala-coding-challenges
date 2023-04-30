@@ -1,5 +1,5 @@
+import algorithms.zeroSumSubArray
 import munit.FunSuite
-import zeroSumSubArray.zeroSumSubArray
 
 class ZeroSumSubArraySuite extends FunSuite {
   test("An empty subarray should return false") {
