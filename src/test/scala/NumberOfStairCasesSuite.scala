@@ -2,7 +2,7 @@ import munit.FunSuite
 import NumberOfStairCases.RecursiveSolution
 import NumberOfStairCases.DpSolution
 
-class NumberOfStairCases extends FunSuite {
+class NumberOfStairCasesSuite extends FunSuite {
   test("number of stair cases - recursive solution") {
     assertEquals(RecursiveSolution.numberOfStairCases(1), 1)
     assertEquals(RecursiveSolution.numberOfStairCases(3), 4)
