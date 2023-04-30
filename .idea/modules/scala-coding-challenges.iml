@@ -43,10 +43,28 @@
     <orderEntry type="library" name="sbt: org.creativescala:doodle-turtle_2.13:0.10.1:jar" level="project" />
     <orderEntry type="library" name="sbt: org.creativescala:doodle_2.13:0.10.1:jar" level="project" />
     <orderEntry type="library" scope="TEST" name="sbt: org.hamcrest:hamcrest-core:1.3:jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="sbt: org.scala-lang.modules:scala-xml_2.13:2.1.0:jar" level="project" />
     <orderEntry type="library" name="sbt: org.scala-lang:scala-library:2.13.10:jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="sbt: org.scala-lang:scala-reflect:2.13.10:jar" level="project" />
     <orderEntry type="library" scope="TEST" name="sbt: org.scala-sbt:test-interface:1.0:jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="sbt: org.scalactic:scalactic_2.13:3.2.15:jar" level="project" />
     <orderEntry type="library" scope="TEST" name="sbt: org.scalameta:junit-interface:0.7.29:jar" level="project" />
     <orderEntry type="library" scope="TEST" name="sbt: org.scalameta:munit_2.13:0.7.29:jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="sbt: org.scalatest:scalatest-compatible:3.2.15:jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="sbt: org.scalatest:scalatest-core_2.13:3.2.15:jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="sbt: org.scalatest:scalatest-diagrams_2.13:3.2.15:jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="sbt: org.scalatest:scalatest-featurespec_2.13:3.2.15:jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="sbt: org.scalatest:scalatest-flatspec_2.13:3.2.15:jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="sbt: org.scalatest:scalatest-freespec_2.13:3.2.15:jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="sbt: org.scalatest:scalatest-funspec_2.13:3.2.15:jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="sbt: org.scalatest:scalatest-funsuite_2.13:3.2.15:jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="sbt: org.scalatest:scalatest-matchers-core_2.13:3.2.15:jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="sbt: org.scalatest:scalatest-mustmatchers_2.13:3.2.15:jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="sbt: org.scalatest:scalatest-propspec_2.13:3.2.15:jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="sbt: org.scalatest:scalatest-refspec_2.13:3.2.15:jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="sbt: org.scalatest:scalatest-shouldmatchers_2.13:3.2.15:jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="sbt: org.scalatest:scalatest-wordspec_2.13:3.2.15:jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="sbt: org.scalatest:scalatest_2.13:3.2.15:jar" level="project" />
     <orderEntry type="library" name="sbt: org.scodec:scodec-bits_2.13:1.1.27:jar" level="project" />
     <orderEntry type="library" name="sbt: org.typelevel:cats-core_2.13:2.6.1:jar" level="project" />
     <orderEntry type="library" name="sbt: org.typelevel:cats-effect-kernel_2.13:3.2.9:jar" level="project" />

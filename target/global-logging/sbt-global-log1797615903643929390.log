@@ -1,0 +1,24 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(test, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Test / test[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 7 Scala sources to /Users/mac/IdeaProjects/scala-coding-challenges/target/scala-2.13/classes ...[0m
+[0m[[0m[0minfo[0m] [0m[0mNon-compiled module 'compiler-bridge_2.13' for Scala 2.13.10. Compiling...[0m
+[0m[[0m[0minfo[0m] [0m[0m  Compilation completed in 11.778s.[0m
+[0m[[0m[0minfo[0m] [0m[0mdone compiling[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 6 Scala sources to /Users/mac/IdeaProjects/scala-coding-challenges/target/scala-2.13/test-classes ...[0m
+[0m[[0m[0minfo[0m] [0m[0mdone compiling[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mValidStartingCitySuite:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mvalidStartingCity[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return the correct starting city for a simple example[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return the correct starting city when there is no valid city[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return the correct starting city for a case with only one city[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return the correct starting city for a case with large inputs[0m[0m
+[0m[[0m[0minfo[0m] [0m[0mScalaTest[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 585 milliseconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 4[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 1, aborted 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 4, failed 0, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAll tests passed.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0mPassed: Total 17, Failed 0, Errors 0, Passed 17[0m
+[0m[[0m[32msuccess[0m] [0m[0mTotal time: 16 s, completed Apr 30, 2023 4:57:20 PM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(idea-shell, None, None)[0m
