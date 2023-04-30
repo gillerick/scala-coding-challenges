@@ -16,7 +16,14 @@ object BestTimeToBuyAndSellStock {
   }
 
   def bestTimeToBuyAndSellStockKadane(prices: List[Int]): Int = {
-    ???
+    var maximumProfit = 0
+    var minimumBuy = prices.head
+    for (price <- prices) {
+      minimumBuy = Math.min(minimumBuy, price)
+      val currentProfit = price - minimumBuy
+      maximumProfit = Math.max(currentProfit, maximumProfit)
+    }
+    maximumProfit
   }
 
 }
