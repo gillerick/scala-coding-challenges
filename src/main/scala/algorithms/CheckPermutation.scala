@@ -20,4 +20,11 @@ object CheckPermutation {
     true
   }
 
+  def checkPermutationFunctional(s1: String, s2: String): Boolean = {
+    if (s1.length != s2.length) return false
+
+    s1.groupMapReduce(identity)(_ => 1)((i, j) => i + j) == s2.groupMapReduce(identity)(_ => 1)((i, j) => i + j)
+
+  }
+
 }
