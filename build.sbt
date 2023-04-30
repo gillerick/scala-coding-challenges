@@ -9,5 +9,6 @@ lazy val root = (project in file("."))
 
 libraryDependencies ++= Seq(
   "org.creativescala" %% "doodle" % "0.10.1",
-  "org.scalameta" %% "munit" % "0.7.29" % Test
+  "org.scalameta" %% "munit" % "0.7.29" % Test,
+  "org.scalatest" %% "scalatest" % "3.2.15" % "test"
 )
