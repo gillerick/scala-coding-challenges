@@ -1,6 +1,6 @@
-package containerWithMostWater
+package algorithms
 
-object Solution {
+object ContainerWithMostWater {
   def containerWithMostWater(height: List[Int]): Int = {
     var maximumArea = 0
     var leftIdx = 0

@@ -1,18 +1,17 @@
+import algorithms.NumberOfStairCases.{numberOfStairCasesDp, numberOfStairCasesRecursive}
 import munit.FunSuite
-import NumberOfStairCases.RecursiveSolution
-import NumberOfStairCases.DpSolution
 
 class NumberOfStairCasesSuite extends FunSuite {
   test("number of stair cases - recursive solution") {
-    assertEquals(RecursiveSolution.numberOfStairCases(1), 1)
-    assertEquals(RecursiveSolution.numberOfStairCases(3), 4)
-    assertEquals(RecursiveSolution.numberOfStairCases(10), 274)
+    assertEquals(numberOfStairCasesRecursive(1), 1)
+    assertEquals(numberOfStairCasesRecursive(3), 4)
+    assertEquals(numberOfStairCasesRecursive(10), 274)
   }
 
   test("number of stair cases - dp solution") {
-    assertEquals(DpSolution.numberOfStairCases(1), 1)
-    assertEquals(DpSolution.numberOfStairCases(3), 4)
-    assertEquals(DpSolution.numberOfStairCases(10), 274)
+    assertEquals(numberOfStairCasesDp(1), 1)
+    assertEquals(numberOfStairCasesDp(3), 4)
+    assertEquals(numberOfStairCasesDp(10), 274)
   }
 
 }

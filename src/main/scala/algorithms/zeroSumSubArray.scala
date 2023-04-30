@@ -1,4 +1,4 @@
-package zeroSumSubArray
+package algorithms
 
 object zeroSumSubArray {
   def isZeroSumSubArray(nums: List[Int]): Boolean = {

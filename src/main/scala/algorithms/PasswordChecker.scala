@@ -1,4 +1,4 @@
-package passwordChecker
+package algorithms
 
 object PasswordChecker {
 
