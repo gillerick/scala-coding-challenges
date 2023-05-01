@@ -27,4 +27,19 @@ object CheckPermutation {
 
   }
 
+  def checkPermutationFunctional2(s1: String, s2: String): Boolean = {
+    if (s1.length != s2.length) {
+      false
+    } else {
+      val letters = s1.foldLeft(Map.empty[Char, Int].withDefaultValue(0)) {
+        case (map, char) => map + (char -> (map(char) + 1))
+      }
+      s2.foldLeft((true, letters)) {
+        case ((result, map), char) =>
+          val count = map(char) - 1
+          (result && count >= 0, map + (char -> count))
+      }._1
+    }
+  }
+
 }
