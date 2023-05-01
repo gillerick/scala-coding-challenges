@@ -1,9 +1,22 @@
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(ValidParenthesisSuite, org.scalatest.tools.Framework$$anon$1@5fd62905, false, [SuiteSelector])[0m
 [0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(BestTimeToBuyAndSellStock, CustomFingerprint{suite='munit.Suite'}, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(ValidStartingCitySuite, org.scalatest.tools.Framework$$anon$1@5fd62905, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(MissingNumberSuite, CustomFingerprint{suite='munit.Suite'}, false, [SuiteSelector])[0m
 [0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(NumberOfStairCasesSuite, CustomFingerprint{suite='munit.Suite'}, false, [SuiteSelector])[0m
-[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(ValidStartingCitySuite, org.scalatest.tools.Framework$$anon$1@45534f1b, false, [SuiteSelector])[0m
-[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(ZeroSumSubArraySuite, CustomFingerprint{suite='munit.Suite'}, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(CheckPermutationSuite, CustomFingerprint{suite='munit.Suite'}, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(ReverseWordsInStringSuite, org.scalatest.tools.Framework$$anon$1@5fd62905, false, [SuiteSelector])[0m
 [0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(ContainerWithMostWaterSuite, CustomFingerprint{suite='munit.Suite'}, false, [SuiteSelector])[0m
 [0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(PalindromeSuite, CustomFingerprint{suite='munit.Suite'}, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(ZeroSumSubArraySuite, CustomFingerprint{suite='munit.Suite'}, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mValidParenthesisSuite:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mvalidParenthesis[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should correctly return true for a valid parenthesis[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should correctly return false for an invalid parenthesis[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mReverseWordsInStringSuite:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mreverseWordsInString[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should correctly reverse a string without whitespace[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mreverseWordsInString[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should correctly ignore the white spaces in a string[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32mValidStartingCitySuite:[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32mvalidStartingCity[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32m- should return the correct starting city for a simple example[0m[0m
@@ -11,17 +24,21 @@
 [0m[[0m[0minfo[0m] [0m[0m[32m- should return the correct starting city for a case with only one city[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32m- should return the correct starting city for a case with large inputs[0m[0m
 [0m[[0m[0minfo[0m] [0m[0mScalaTest[0m
-[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 633 milliseconds.[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 4[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 1, aborted 0[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 4, failed 0, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 489 milliseconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 8[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 3, aborted 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 8, failed 0, canceled 0, ignored 0, pending 0[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32mAll tests passed.[0m[0m
 [0m[[0m[0mdebug[0m] [0m[0mSummary for munit not available.[0m
-[0m[[0m[0minfo[0m] [0m[0mPassed: Total 17, Failed 0, Errors 0, Passed 17[0m
+[0m[[0m[0minfo[0m] [0m[0mPassed: Total 26, Failed 0, Errors 0, Passed 26[0m
 [0m[[0m[0mdebug[0m] [0m[0mPassed tests:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	MissingNumberSuite[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ValidParenthesisSuite[0m
+[0m[[0m[0mdebug[0m] [0m[0m	CheckPermutationSuite[0m
 [0m[[0m[0mdebug[0m] [0m[0m	BestTimeToBuyAndSellStock[0m
 [0m[[0m[0mdebug[0m] [0m[0m	NumberOfStairCasesSuite[0m
 [0m[[0m[0mdebug[0m] [0m[0m	PalindromeSuite[0m
 [0m[[0m[0mdebug[0m] [0m[0m	ZeroSumSubArraySuite[0m
 [0m[[0m[0mdebug[0m] [0m[0m	ContainerWithMostWaterSuite[0m
 [0m[[0m[0mdebug[0m] [0m[0m	ValidStartingCitySuite[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ReverseWordsInStringSuite[0m
