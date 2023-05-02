@@ -13,7 +13,16 @@ object MaximumSubarray {
   }
 
   def maximumSubarrayDp(nums: List[Int]): Int = {
-    ???
+    val n = nums.length
+    val dp = Array.fill(n)(0)
+    dp(0) = nums.head
+    var maximumSum = nums.head
+    for (i <- 1 until n) {
+      dp(i) = Math.max(dp(i - 1) + nums(i), nums(i))
+      maximumSum = Math.max(maximumSum, dp(i))
+
+    }
+    maximumSum
   }
 
 }
