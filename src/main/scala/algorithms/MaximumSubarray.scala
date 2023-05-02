@@ -25,4 +25,11 @@ object MaximumSubarray {
     maximumSum
   }
 
+  def maximumSubarrayFunctional(nums: List[Int]): Int = {
+    nums.tail.foldLeft((nums.head, nums.head)) { case ((maxSum, currentSum), num) =>
+      val newSum = Math.max(currentSum + num, num)
+      (Math.max(maxSum, newSum), newSum)
+    }._1
+  }
+
 }

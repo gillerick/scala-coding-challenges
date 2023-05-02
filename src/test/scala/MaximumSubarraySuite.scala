@@ -15,4 +15,10 @@ class MaximumSubarraySuite extends AnyFlatSpec {
     maximumSubarrayDp(List(5, 4, -1, 7, 8)) should be(23)
   }
 
+  "maximumSubarrayFunctional" should "correctly return the sum of the maximum subarray" in {
+    maximumSubarrayFunctional(List(-2, 1, -3, 4, -1, 2, 1, -5, 4)) should be(6)
+    maximumSubarrayFunctional(List(1)) should be(1)
+    maximumSubarrayFunctional(List(5, 4, -1, 7, 8)) should be(23)
+  }
+
 }
